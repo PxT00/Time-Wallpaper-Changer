@@ -3,9 +3,9 @@ import ctypes
 from datetime import datetime
 from time import sleep
 
-manha_path = "C:/Users/gabri/Documents/Wallpaper images/manha.jpg"
-tarde_path = "C:/Users/gabri/Documents/Wallpaper images/tarde.jpg"
-noite_path = "C:/Users/gabri/Documents/Wallpaper images/noite.jpg"
+manha_path = "path/to/file"
+tarde_path = "path/to/file"
+noite_path = "path/to/file"
 
 def set_wallpaper(path):
     ctypes.windll.user32.SystemParametersInfoW(20, 0, path , 0)
