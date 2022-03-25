@@ -40,4 +40,4 @@ while True:
     elif check_system_hour() == "madrugada":
         print("Wallpaper set to madrugada")
         set_wallpaper(noite_path)
-    sleep(5)
+    sleep(180)
